@@ -238,7 +238,7 @@ h5,
 h6,
 .h6 {
   font-family: 'Neuton', sans-serif;
-  color: #464646;
+  color: #0c0c0c;
   font-weight: 600;
   line-height: 1.2em;
   margin-bottom: 20px;
@@ -257,7 +257,7 @@ h5 > a,
 .h5 > a,
 h6 > a,
 .h6 > a {
-  color: inherit;
+  color: black;
 }
 h1,
 .h1 {
@@ -265,7 +265,7 @@ h1,
 }
 h2,
 .h2 {
-  color: aliceblue;
+  color: rgb(62, 62, 63);
   font-size: 36px;
 }
 h3,
@@ -294,7 +294,7 @@ a {
   transition: all 0.3s ease;
 }
 a:hover {
-  color: #ababab !important;
+  color: #f5f3f3 !important;
 }
 .quicklinks a:hover,
 .quicklinks a:active,
@@ -422,8 +422,8 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
-  background: #ffffff;
-  color: #787878;
+  background: #d3d3d3;
+  color: #353535;
   overflow-x: hidden;
   line-height: 24px;
   word-spacing: 1px;
@@ -491,6 +491,7 @@ body {
   height: 100%;
   position: relative;
   white-space: nowrap;
+  font-size: 15px;
 }
 #header .menu-list .menu-item a {
   position: relative;
@@ -874,7 +875,7 @@ div.overlay:after {
   margin-top: 0;
 }
 .color-1 {
-  background: #f6f8f8 none repeat scroll 0 0;
+  background: #a9aaaa none repeat scroll 0 0;
 }
 #main-content .section-inner .post-media {
   margin-bottom: 20px;
@@ -895,7 +896,7 @@ div.overlay:after {
   text-align: center;
   position: relative;
   padding-bottom: 15px;
-  font-size: 24px;
+  font-size: 30px;
 }
 .section-inner .title:after {
   content: '';
@@ -948,6 +949,8 @@ div.overlay:after {
 }
 .p20 {
   padding: 20px 0;
+  margin: auto;
+  margin-top: auto;
 }
 .info-list {
   list-style: none;
@@ -1018,7 +1021,7 @@ div.overlay:after {
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-top-color: #787878;
+  border-top-color: #3f3f3f;
   margin: auto;
   left: 0;
   right: 0;
@@ -1042,11 +1045,11 @@ div.overlay:after {
   left: 0;
   right: 0;
   width: 1px;
-  background-color: #dddddd;
+  background-color: #2e2e2e;
 }
 .experience-item {
   padding: 20px;
-  border: 1px solid #dddddd;
+  border: 1px solid #3f3f3f;
   margin-bottom: 20px;
   margin-right: 30px;
   width: calc(50% - 30px);
@@ -1082,7 +1085,7 @@ div.overlay:after {
   transform: translateY(-50%);
 }
 .experience-item:before {
-  content: '+';
+  /* content: '+'; */
   text-align: center;
   width: 36px;
   height: 36px;
@@ -1161,7 +1164,7 @@ div.overlay:after {
 .service-item {
   text-align: center;
   padding: 40px 30px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #747474;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -1185,7 +1188,7 @@ div.overlay:after {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 1px solid #eeeeee;
+  border: 1px solid #747474;
   margin-bottom: 20px;
 }
 .service-item h6 {
@@ -1380,11 +1383,13 @@ div.overlay:after {
   padding: 8px 20px;
   border-radius: 14px;
   position: relative;
+  font-size: 20px;
 }
 #portfolio-wrap .controls ul li a.active,
 .portfolio .controls ul li a.active,
 .projects-related .controls ul li a.active {
-  color: #ababab;
+  color: #161616;
+  font-size: 25px;
 }
 #portfolio-wrap .controls ul li a.active:after,
 .portfolio .controls ul li a.active:after,
@@ -1429,11 +1434,13 @@ div.overlay:after {
   width: 33.333333%;
   display: inline-block;
   margin-bottom: 30px;
+  
 }
 #portfolio-wrap .equal .image,
 .portfolio .equal .image,
 .projects-related .equal .image {
   padding-bottom: 75%;
+  border: 8px solid #4f5050;
 }
 #portfolio-wrap .large,
 .portfolio .large,
